@@ -245,10 +245,37 @@ const App = () => {
       <style>{styles}</style>
 
       {/* HEADER PROFESIONAL */}
-      <header style={{ textAlign: 'center', marginBottom: '10px', color: esModoNeon ? '#39ff14' : '#16a34a' }}>
-        <h1 style={{ margin: '0', fontSize: '24px', fontWeight: '900', textTransform: 'uppercase', letterSpacing: '2px' }}>Edwin Tech Inclusive</h1>
-        <div style={{ fontSize: '10px', fontWeight: 'bold', opacity: 0.7 }}>PROYECTO CIENCIAS NATURALES - USAC 2026</div>
-      </header>
+     <header style={{ 
+  textAlign: 'center', 
+  marginBottom: '20px', 
+  padding: '10px',
+  borderBottom: '1px solid #333' 
+}}>
+  <h1 style={{ 
+    color: '#39ff14', 
+    fontSize: '2rem', 
+    fontWeight: 'bold', 
+    margin: '0',
+    textTransform: 'uppercase'
+  }}>
+    Tablero de comunicación alternativa
+  </h1>
+  <h2 style={{ 
+    color: '#00f3ff', 
+    fontSize: '1.5rem', 
+    margin: '5px 0' 
+  }}>
+    Área de Ciencias Naturales
+  </h2>
+  <p style={{ 
+    color: '#fff', 
+    fontSize: '1.1rem', 
+    opacity: '0.9',
+    margin: '0'
+  }}>
+    Edwin Estuardo Lemus Salazar - 202101385
+  </p>
+</header>
 
       {/* ÁREA DE CONSTRUCCIÓN DE FRASE */}
       <div style={{ maxWidth: '1400px', margin: '0 auto 10px', padding: '12px', backgroundColor: esModoNeon ? '#0f172a' : '#fff', borderRadius: '12px', border: `2px solid ${esModoNeon ? '#39ff14' : '#cbd5e1'}`, display: 'flex', alignItems: 'center', gap: '10px', boxShadow: '0 4px 6px -1px rgba(0,0,0,0.1)' }}>
